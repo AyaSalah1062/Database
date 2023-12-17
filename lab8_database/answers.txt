@@ -1,0 +1,208 @@
+-- 1-Write an SQL query to retrieve warehouse id, city, and count of orders shipped from this warehouse. The query should show all warehouses even if there are no orders that have been shipped from this warehouse.
+---------------->
+warehouse_id	warehouse_city	count(s.order_id)	
+1	Geelong	3	
+2	Grande Prairie	2	
+3	Lede	4	
+4	Oostende	3	
+5	Kumluca	4	
+6	Arica	7	
+7	Midlands	3	
+8	Aulnay-sous-Bois	7	
+9	Soria	0	
+10	Rouvroy	2	
+11	Precenicco	5	
+12	Sesto al Reghena	3	
+13	Edmundston	1	
+14	Beho	2	
+15	Aisén	4	
+16	Essex	8	
+17	Merritt	4	
+18	Ellikom	4	
+19	l'Escaill re	3	
+20	Houdemont	0	
+21	Enterprise	3	
+22	Queilén	2	
+23	Southwell	1	
+24	Recoleta	2	
+25	Panchià	5	
+26	Chichester	4	
+27	Orsara di Puglia	5	
+28	Coquitlam	3	
+29	Geertruidenberg	3	
+30	Alingsås	3	
+31	Aurora	3	
+32	Cz?stochowa	3	
+33	Cheltenham	5	
+34	Duncan	3	
+35	Les Bons Villers	2	
+36	Halifax	1	
+37	Secunderabad	4	
+38	La Baie	1	
+39	Cupar	1	
+40	Castiglione Messer Raimondo	3	
+41	Sint-Pauwels	2	
+42	Moncton	6	
+43	Martello/Martell	5	
+44	Biesme-sous-Thuin	7	
+45	Avennes	5	
+46	Bierk Bierghes	4	
+47	Purén	3	
+48	Schriek	3	
+49	St. Thomas	8	
+50	Wardha	3	
+51	Petit-Thier	4	
+52	Beerzel	0	
+53	Aurora	1	
+54	Contulmo	4	
+55	Kirriemuir	2	
+56	Burin	1	
+57	Harrogate	4	
+58	Durness	1	
+59	Whitby	5	
+60	Shipshaw	6	
+-------------------------------------------------------------------------
+-- 2-Write a SQL query to retrieve customer name, count of orders for each customer even if the customer didn’t make any orders.
+--------------->
+customer_name	count(o.order_id)	
+Stewart Tyler	2	
+Christen Guerrero	1	
+Vaughan Ellison	0	
+Keefe Good	5	
+Jillian Austin	0	
+Chadwick Hogan	2	
+Walter Burton	4	
+Mara Hudson	3	
+Anika Gonzales	2	
+Wang Browning	2	
+Malachi Baxter	4	
+Tyrone Sullivan	0	
+Deanna Morales	3	
+Cyrus Saunders	3	
+Lilah Sanchez	1	
+Echo Bolton	2	
+Channing Lynn	2	
+Jeanette Hester	1	
+Russell Benjamin	0	
+Nita Branch	2	
+Ferris Pollard	2	
+Amal Marsh	1	
+Philip Cain	0	
+Ferris Foley	2	
+Wang Robertson	2	
+Xyla Hickman	3	
+Jennifer Coleman	1	
+Mark Franks	2	
+Vanna Mullen	1	
+May Reese	2	
+Evelyn Bowers	2	
+Hayden Weber	2	
+Melissa Valencia	0	
+Mariko Frederick	2	
+Raven Mann	1	
+Uta Miller	2	
+Guinevere Joyner	2	
+Hayfa Byers	1	
+Henry Bond	4	
+Zelda Love	2	
+Lane Klein	5	
+Addison Meadows	1	
+Venus Townsend	4	
+Charlotte Rios	5	
+Allen Howe	0	
+Gemma Cote	4	
+Ray Cash	1	
+TaShya Walters	2	
+Yoshio Poole	0	
+Kitra Hubbard	1	
+Kristen Barber	1	
+Dora Howe	2	
+Quinlan Greene	4	
+Sylvia Diaz	1	
+Garth Clements	2	
+Angela Burnett	1	
+Brody Whitfield	3	
+Keane Vinson	0	
+Imani Keith	3	
+Kylee Castro	1	
+Fatima Page	2	
+Regan Whitfield	3	
+Todd Burt	2	
+Donna Bernard	2	
+Althea Hebert	1	
+Neville Dyer	4	
+Zachery Pace	2	
+Mohammad Morgan	1	
+Gil Craig	1	
+Brett Zimmerman	2	
+Patricia Quinn	2	
+Madonna Foreman	2	
+Lara Morrison	1	
+Marvin Rich	3	
+Sydney Pierce	1	
+Courtney Dale	4	
+Hoyt Blanchard	2	
+Farrah Gould	3	
+Asher Clayton	2	
+Veda Rasmussen	2	
+Piper Dominguez	2	
+Jordan Best	3	
+Ginger Hood	2	
+Macy Holman	3	
+Bernard Drake	3	
+Harrison Heath	1	
+April Nguyen	2	
+Cade Crosby	3	
+Sawyer Mejia	2	
+Latifah Bullock	3	
+Carly Lowe	2	
+Clarke Mccullough	3	
+Victor Mckinney	1	
+Alexander Wiley	1	
+Noelle George	1	
+Venus Albert	3	
+Laurel Webster	0	
+Myra Santiago	4	
+Kennan Nash	2	
+Josiah Hatfield	3	
+-----------------------------------------------------------------------------------
+-- 3-Write a SQL query to retrieve all items who haven’t been ordered.
+-------------->	
+3	9471.00	
+5	430.00	
+9	9596.00	
+10	2786.00	
+14	2809.00	
+16	3331.00	
+24	3170.00	
+28	3375.00	
+34	3468.00	
+42	518.00	
+51	1892.00	
+55	9142.00	
+56	5750.00	
+73	6718.00	
+75	7380.00	
+78	4507.00	
+80	2174.00	
+81	60.00	
+84	3261.00	
+88	4846.00	
+89	9324.00	
+92	7407.00	
+94	3356.00	
+99	2636.00	
+109	1115.00	
+116	4743.00	
+121	6928.00	
+132	3165.00	
+147	7057.00	
+156	6798.00	
+161	7037.00	
+177	3066.00	
+179	1326.00	
+180	789.00	
+181	2018.00	
+185	7336.00	
+190	5039.00	
+199	9750.00	
